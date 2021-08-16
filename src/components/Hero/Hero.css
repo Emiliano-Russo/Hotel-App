@@ -1,0 +1,31 @@
+.Hero {
+	height: 92vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	-webkit-transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
+}
+
+.Hero button {
+	padding: 10px 20px;
+	font-size: 25px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(58, 58, 58, 0.527);
+	color: whitesmoke;
+	margin: 0 2rem;
+}
+
+.Hero button:hover {
+	cursor: pointer;
+	color: rgb(116, 158, 250);
+}
+
+@media (orientation: portrait) {
+	.Hero button {
+		margin: 0 0.1rem;
+	}
+}

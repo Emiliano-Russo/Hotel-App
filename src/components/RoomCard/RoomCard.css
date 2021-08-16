@@ -1,0 +1,47 @@
+.RoomCard {
+	border: 1px solid black;
+	width: 25rem;
+	height: 19rem;
+	background-color: rgb(255, 255, 255);
+	margin: 10px;
+}
+
+.RoomCard:hover {
+	cursor: pointer;
+	transition: 300ms;
+	border: 1px solid rgb(58, 76, 245);
+}
+
+.RoomCard footer {
+	padding: 2px;
+}
+
+.RoomCard main {
+	height: 90%;
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+.RoomCard .price {
+	background-color: rgba(0, 0, 0, 0.349);
+	color: white;
+	width: fit-content;
+	padding: 10px;
+	border-radius: 0px 0px 50px 0px;
+}
+
+.RoomCard .guests {
+	background-color: rgba(0, 0, 0, 0.349);
+	color: white;
+	width: fit-content;
+	padding: 10px;
+	margin: 3rem 0;
+	border-radius: 0px 50px 50px 0px;
+}
+
+@media (orientation: portrait) {
+	.RoomCard {
+		width: 80%;
+	}
+}

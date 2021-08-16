@@ -1,0 +1,12 @@
+.FeaturedRooms {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media (orientation: portrait) {
+	.FeaturedRooms {
+		flex-direction: column;
+		align-items: center;
+	}
+}

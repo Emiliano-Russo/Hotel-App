@@ -1,0 +1,27 @@
+.Filters {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(223, 223, 223);
+	box-shadow: rgb(153, 152, 152) 5px 10px 6px;
+}
+
+.Filters div {
+	margin: 2rem;
+}
+
+.Filters select {
+	padding: 0.3rem 0.8rem;
+}
+
+@media (orientation: portrait) {
+	.Filters {
+		flex-direction: column;
+	}
+
+	.Filters div {
+		margin: 0;
+		margin-top: 0.5rem;
+	}
+}

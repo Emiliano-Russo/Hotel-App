@@ -1,0 +1,27 @@
+.Offers {
+	background-color: rgba(250, 250, 250, 0.815);
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Offers h1 {
+	margin-bottom: 5rem;
+}
+
+.AllServices {
+	display: flex;
+}
+
+.AllServices img {
+	width: 3rem;
+	height: 3rem;
+}
+
+@media (orientation: portrait) {
+	.AllServices {
+		flex-direction: column;
+	}
+}
