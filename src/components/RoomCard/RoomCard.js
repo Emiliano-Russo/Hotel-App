@@ -11,17 +11,12 @@ function RoomCard(props) {
 	}
 
 	return (
-		<div className="RoomCard" onClick={clickHandler}>
-			<main style={{ backgroundImage: `url(${props.linkImg})` }}>
-				<div className="price">
-					<p>${props.price}</p>
-					<p>per night</p>
-				</div>
-				<div className="guests">
-					<p>Capacity: {props.guests}</p>
-				</div>
-			</main>
-			<footer>{props.type}</footer>
+		<div className="RoomCard" onClick={clickHandler} style={{ backgroundImage: `url(${props.linkImg})` }}>
+			<div className="info">
+				<p>${props.price} per night</p>
+				<p>Capacity: {props.guests}</p>
+				<p>Type: {props.type}</p>
+			</div>
 		</div>
 	);
 }
